@@ -1,0 +1,74 @@
+# Intro to Expess
+
+-Always start by running "NPM init -y" to intialize a node project
+- install express: npm install express
+-Make sure your file is called what your "Main" is. Like "Server.js"
+
+
+First Express Serve:
+
+-declare a variable and set it equal to "require('express")"
+const express = require("express")
+
+
+#Port :
+
+-runs processes or programs
+-stay above 3000
+-stay below 9000
+
+#Route:
+-like an event listener
+-listens to a type of request
+
+#Endpoint:
+-  './item' './user' is what is being listened for
+
+#Nodemon: 
+-npm install -g nodemon
+
+------------------------------------------------------------------------------
+
+
+# Intro to REST API Architecture
+
+#REST - representational state transfer 
+
+
+#Resoruce - single item (object) in database
+- /user
+
+# Collection - A collection of similar items in a database \
+- /users
+
+
+# Base (root) URL - http://amazon.com = base url
+
+
+#API Endpoint - http://amazon.com/movies = "movies" being the endpoint 
+
+# Parameters - /movies/:movieID "movieID" - Parameters
+
+# Query (query string) - /movies?genre=action&year=1999
+
+# Client - Frontend 
+
+
+# Server - Intermediary
+
+
+# Request Method - CRUD - GET POST PUT DELETE
+
+Example:
+
+//Camping good store 
+-tents
+-sleeping bags
+-cooking
+-etc.
+
+/tents
+/sleepingbags
+/equipment/tents
+/equipment/sleepingbags
+
