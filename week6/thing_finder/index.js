@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 
 
-app.use('/items', require("./routes/stuffRouter.js"))
+app.use('/items', require("./routes/foodRouter.js"))
 
 
 
